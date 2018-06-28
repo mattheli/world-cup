@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "world-cup-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/worldCup/WorldCupWebPart.js",
+          "manifest": "./src/webparts/worldCup/WorldCupWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WorldCupWebPartStrings": "lib/webparts/worldCup/loc/{locale}.js"
+  }
+}

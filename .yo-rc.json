@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.5.1",
+    "libraryName": "world-cup",
+    "libraryId": "43ea60bd-2b0d-433c-861c-7fe218f2131f",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
